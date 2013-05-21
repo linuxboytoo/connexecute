@@ -1,0 +1,37 @@
+/*
+Theme Name: Connexecute2
+Theme URI: http://www.skybrant.com/
+Description: Custom Theme for Connexecute
+Author: Skybrant, LLC - www.skybrant.com
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: connexecute
+
+Dark Blue: #0054a4
+Green: #7ac143
+Light Blue: #13b5ea
+Yellow: #ffd24f
+Orange: #f47b20
+
+*/
+
+@import url('/theme/reset.css');
+@import url('http://fonts.googleapis.com/css?family=Allura|Raleway:400,700');
+
+
+html,body		{ margin: 0 !important; padding: 0 !important;  }
+a			{ text-decoration: none; color: #f47b20; }
+a:hover			{ text-decoration: underline; color: #f47b20; }
+h1,h2,h3,p,div,span,a	{ font-family: 'Raleway', sans-serif; font-size: 11pt; color: #464646; font-weight: normal; }
+h1,h2,h3		{ color: #0054a4; }
+h1			{ font-size: 20pt; padding-bottom: 25px; } 
+h2			{ font-size: 17pt; padding-bottom: 10px; }
+h3			{ font-size: 13pt; padding-bottom: 5px;  }
+
+.owrapper	{ }
+.iwrapper	{ height: auto; position: relative; margin: auto; width: 890px; }
+.iwrapper	{ }
+
+.boxshadow		{ -moz-box-shadow: 0px 0px 10px #555555; -webkit-box-shadow: 0px 0px 10px #555555; box-shadow: 0px 0px 10px #555555; }
+.dropshadow		{ -moz-box-shadow: 0px 5px 10px #555555; -webkit-box-shadow: 0px 5px 10px #555555; box-shadow: 0px 5px 10px #555555;
