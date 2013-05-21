@@ -20,6 +20,7 @@
 
 <body>
 	<div id='owrapper'>
-		<div id='iwrapper'>
+	LOGO
+			<div id='iwrapper'>
 			<?php wp_nav_menu( array( 'menu' => 'header-menu', 'sort_column' => 'menu_order' ) ); ?>
 		</div>
