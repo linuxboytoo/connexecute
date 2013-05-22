@@ -40,6 +40,8 @@ a:hover				{ text-decoration: underline; color: #f47b20; }
 
 .bg_green				{ background-color: #7ac143; }
 
+.bg_darkblue			{ background-color: #0054a4; } 
+
 #header 			{ position: relative; height: 78px; margin: 10px 0 0 0; }
 #header .logo		{ float: left; height: 64px; width: 303px; background-image: url('/theme/images/logo.png'); }
 #header .social		{ position: absolute; height: 25px; right: 0; }

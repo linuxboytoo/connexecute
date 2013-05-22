@@ -2,6 +2,6 @@
 </div>
 <div style='float: left; width: 59px;'>&nbsp;</div>
 <div style='float: left; width: 401px; position: relative;'>
-test
+	<div class='bg_darkblue' style='position: absolute; top: 0; right: 61px; width: 61px; height: 275px;'></div> 
 	<div class='dottedhr bg_green' style='position: absolute; top: 64px; left: 0px; width: 100%'></div>
 </div>
