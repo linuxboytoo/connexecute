@@ -32,7 +32,7 @@
 					<a href='mailto:info@connexecute.com'><img src='/theme/images/social-email.jpg'></a>
 				</div>
 				<div class='contact'>
-					<?php dynamic_sidebar('header_contact'); ?>
+					<?php dynamic_sidebar('Header Contact'); ?>
 				</div>
 			</div>
 		</div>
