@@ -23,5 +23,7 @@
 		<div class='iwrapper'>
 			<div id='header'>
 				<div class='logo'></div>
+				<div class='social'></div>
+				<div class='contact'></div>
 			</div>
 		</div>
