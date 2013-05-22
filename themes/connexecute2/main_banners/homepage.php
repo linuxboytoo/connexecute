@@ -20,5 +20,5 @@
 		<div class='buttonlong-orange' style='position: absolute; top: 129px; left: 12px; font-family: Allura; font-size: 18pt;'>download now</div>
 	</div> 
 	<!-- WORKBOOK -->
-	<div style='position: absolute; top: 78px; left: 220px; background-image: url("/theme/images/graphic-workbookcover.png");'></div>
+	<div style='position: absolute; width: 166px; height: 196px; top: 78px; left: 220px; background-image: url("/theme/images/graphic-workbookcover.png");'></div>
 </div>
