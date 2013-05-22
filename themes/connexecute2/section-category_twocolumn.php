@@ -1,6 +1,6 @@
 <div class='owrapper'>
 	<div class='iwrapper'>
-		<?php $category = get_the_category(); ?>
+		<?php $category = get_the_category(); print_r($category); ?>
 		<a name="top"></a>
 		<h2><?php echo $category[0]->cat_name ?></h2>
 	
