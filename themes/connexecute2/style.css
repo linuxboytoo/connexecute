@@ -30,16 +30,14 @@ h1					{ font-size: 20pt; padding-bottom: 25px; }
 h2					{ font-size: 17pt; padding-bottom: 10px; }
 h3					{ font-size: 13pt; padding-bottom: 5px;  }
 
-.owrapper	{ border: 1px solid blue;}
-.iwrapper	{ height: auto; position: relative; margin: auto; width: 960px; border: 1px solid red; }
+.owrapper	{ }
+.iwrapper	{ height: auto; position: relative; margin: auto; width: 960px; }
 .iwrapper	{ }
 
-/*
 #header 			{ height: 88px; margin: 10px 0 0 0; }
 #header .logo		{ float: left; 	height: 64px; width: 303px; background-image: url('/theme/images/logo.png'); }
 #header .social		{ float: right; height: 25px; }	
 #header .contact	{ float: right; }
-*/
 	
 .boxshadow		{ -moz-box-shadow: 0px 0px 10px #555555; -webkit-box-shadow: 0px 0px 10px #555555; box-shadow: 0px 0px 10px #555555; }
 .dropshadow		{ -moz-box-shadow: 0px 5px 10px #555555; -webkit-box-shadow: 0px 5px 10px #555555; box-shadow: 0px 5px 10px #555555;

@@ -23,4 +23,5 @@
 		<div id='header' class='iwrapper'>
 			<div class='logo'></div>
 		
+			<?php //wp_nav_menu( array( 'menu' => 'header-menu', 'sort_column' => 'menu_order' ) ); ?>
 		</div>
