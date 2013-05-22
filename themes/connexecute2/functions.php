@@ -21,6 +21,10 @@ function get_post_by_tag($tag)
 if ( function_exists('register_sidebar') ){
     register_sidebar(array(
         'name' => 'Header Contact',
+        'before_widget' => '',
+        'after_widget' => '',
+        'before_title' => '',
+        'after_title' => '',
 ));
 }
 
