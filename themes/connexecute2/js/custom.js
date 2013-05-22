@@ -1,5 +1,9 @@
 $(document).ready(function() {
 	
-	alert(jQuery('input[default]').attr('default'));
+	jQuery('input[default]').each(function( index ) {
+	
+		index.attr('value',index.attr('default'));
+	
+	});
 
 });
