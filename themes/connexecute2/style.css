@@ -47,7 +47,7 @@ a:hover				{ text-decoration: underline; color: #f47b20; }
 
 #navigation_main			{ padding: 5px 0 5px 0; height: 15px; }
 #navigation_main .tagline	{ float: left; }
-#navigation_main .menu		{ float: left; }
+#navigation_main .menu		{ float: right; }
 #navigation_main a:hover	{ text-decoration: none; }
 	
 	
