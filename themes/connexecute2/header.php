@@ -20,7 +20,7 @@
 
 <body>
 	<div class='owrapper'>
-		<div class='iwrapper'>
+		<div id='header' class='iwrapper'>
 			<div class='logo'></div>
 		
 		</div>
