@@ -40,6 +40,8 @@
 	<div id='navigation_main' class='owrapper bg_lightblue'>
 		<div class='iwrapper'>
 			<div class='tagline'><?php dynamic_sidebar('Header Tagline'); ?></div>
-			<div class='menu'><a href='#'>meet the team</a></div>
+			<div class='menu'>
+				<?php wp_nav_menu( array('menu' => 'Primary Navigation Menu' )); ?>
+			</div>
 		</div>
 	</div>
