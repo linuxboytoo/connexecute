@@ -37,4 +37,8 @@
 			</div>
 		</div>
 	</div>
-	<div id='navigation_main' class='owrapper bg_lightblue'
+	<div id='navigation_main' class='owrapper bg_lightblue'>
+		<div class='iwrapper'>
+			<div class='tagline'><?php dynamic_sidebar('Header Tagline'); ?></div>
+		</div>
+	</div>

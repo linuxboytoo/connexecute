@@ -18,14 +18,13 @@ function get_post_by_tag($tag)
 }
 
 
-if ( function_exists('register_sidebar') ){
-    register_sidebar(array(
-        'name' => 'Header Contact',
-        'before_widget' => '',
-        'after_widget' => '',
-        'before_title' => '',
-        'after_title' => '',
-));
+if ( function_exists('register_sidebar') )
+{
+	$basic_sidebars = Array('Header Contact','Header Tagline');
+	foreach($basic_sidebars as $key=>$value)
+	{
+		register_sidebar( array('name' => $value, 'before_widget' => '', 'after_widget' => '', 'before_title' => '', 'after_title' => '') );
+	}
 }
 
 
