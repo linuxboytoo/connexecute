@@ -66,6 +66,9 @@ input.empty			{ color: #aaaaaa !important; }
 #main_banner		{ height: 275px; margin: 17px 0 17px 0; }
 #main_banner_image 	{ width: 498px; height: 273px; border: 1px solid #000000; }
 
+.category_twocolumn .item { width: 443px; border: 1px solid red; float: left; }
+
+
 .dottedhr,
 .dottedhr-darkblue,	
 .dottedhr-green		{ background-image: url("/theme/images/horizontal-dots.png"); height: 3px; }

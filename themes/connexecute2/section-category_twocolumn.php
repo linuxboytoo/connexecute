@@ -1,7 +1,7 @@
 <?php $cat = 4; ?>
 
 <div class='owrapper'>
-	<div class='iwrapper'>
+	<div class='iwrapper category_twocolumn'>
 		<a name="top"></a>
 		<h2><?php echo get_cat_name($cat); ?></h2>
 	
@@ -28,7 +28,9 @@
  					{
  						the_post();
  		?>
- 						<h1><?php the_title(); ?></h1>
+ 						<div class='item'>
+ 							<h1><?php the_title(); ?></h1>
+ 						</div>
  		<?php
  					}
  				}
