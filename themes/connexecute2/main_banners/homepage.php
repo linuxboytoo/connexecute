@@ -14,6 +14,7 @@
 	<div style='position: absolute; top: 97px; left: 21px; width: 195px; height: 178px; line-height: 20px; font-size: 12pt;'>
 		<strong>3 essential tools</strong> to get<br />
 		you where you want to go<br />
+		<br />
 		<input type='text' value='first name'><br />
 		<input type='text' value='last name'><br />
 	</div> 
