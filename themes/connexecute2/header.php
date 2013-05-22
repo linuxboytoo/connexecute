@@ -24,7 +24,7 @@
 			<div id='header'>
 				<div class='logo'></div>
 				<div class='social'>
-					    if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('my_mega_menu') ) : ?><?php endif; ?>
+					   <?php dynamic_sidebar('my_mega_menu'); ?>
 <!--
 					<img src='/theme/images/social-youtube.jpg'>
 					<img src='/theme/images/social-rss.jpg'>
