@@ -60,8 +60,9 @@ a:hover				{ text-decoration: underline; color: #f47b20; }
 #main_banner		{ height: 275px; margin: 17px 0 17px 0; }
 #main_banner_image 	{ width: 498px; height: 273px; border: 1px solid #000000; }
 
-.dottedhr			{ background-image: url("/theme/images/horizontal-dots.png"); height: 3px; }
-.dottedhr-darkblue	{ background-image: url("/theme/images/horizontal-dots.png"); height: 3px; background-position: 0 3px; }
+.dottedhr,
+.dottedhr-darkblue	{ background-image: url("/theme/images/horizontal-dots.png"); height: 3px; }
+.dottedhr-darkblue	{ background-position: 0 6px; }
 
 .boxshadow		{ -moz-box-shadow: 0px 0px 10px #555555; -webkit-box-shadow: 0px 0px 10px #555555; box-shadow: 0px 0px 10px #555555; }
 .dropshadow		{ -moz-box-shadow: 0px 5px 10px #555555; -webkit-box-shadow: 0px 5px 10px #555555; box-shadow: 0px 5px 10px #555555;
