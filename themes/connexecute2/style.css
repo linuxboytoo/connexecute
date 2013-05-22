@@ -46,7 +46,7 @@ a:hover				{ text-decoration: underline; color: #f47b20; }
 #header .contact	{ position: absolute; height: 25px; top: 50px; right: 0; }
 
 
-#navigation_main	{ padding: 6px 0 6px 0; height: 13px; }
+#navigation_main	{ padding: 5px 0 5px 0; height: 15px; }
 	
 	
 .boxshadow		{ -moz-box-shadow: 0px 0px 10px #555555; -webkit-box-shadow: 0px 0px 10px #555555; box-shadow: 0px 0px 10px #555555; }
