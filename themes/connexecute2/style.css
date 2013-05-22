@@ -35,7 +35,7 @@ a:hover				{ text-decoration: underline; color: #f47b20; }
 .iwrapper	{ height: auto; position: relative; margin: auto; width: 960px; }
 
 .bg_lightblue 		{ background-color: #13b5ea; }
-.bg_lightblue > *	{ color: #ffffff; }	
+.bg_lightblue *		{ color: #ffffff; }	
 
 #header 			{ position: relative; height: 78px; margin: 10px 0 0 0; }
 #header .logo		{ float: left; height: 64px; width: 303px; background-image: url('/theme/images/logo.png'); }
