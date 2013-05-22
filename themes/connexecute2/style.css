@@ -31,7 +31,7 @@ h2					{ font-size: 17pt; padding-bottom: 10px; }
 h3					{ font-size: 13pt; padding-bottom: 5px;  }
 
 .owrapper	{ }
-.iwrapper	{ height: auto; position: relative; margin: auto; width: 960px; }
+.iwrapper	{ height: auto; position: relative; margin: auto; width: 960px; border: 1px solid red; }
 .iwrapper	{ }
 
 #header 			{ height: 88px; margin: 10px 0 0 0; }
