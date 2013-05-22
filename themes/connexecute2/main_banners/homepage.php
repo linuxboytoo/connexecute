@@ -4,4 +4,5 @@
 <div style='float: left; width: 401px; position: relative;'>
 	<div class='bg_darkblue' style='position: absolute; top: 0; right: 0; width: 61px; height: 275px;'></div> 
 	<div class='dottedhr-green' style='position: absolute; top: 64px; left: 0px; width: 100%'></div>
+	<div style='font-family: Allura; position: absolute; top: 17px; left: 15px;'>Download Your Free</div>
 </div>
