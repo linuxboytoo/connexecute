@@ -48,6 +48,7 @@ a:hover				{ text-decoration: underline; color: #f47b20; }
 #navigation_main			{ padding: 5px 0 5px 0; height: 15px; }
 #navigation_main .tagline	{ float: left; }
 #navigation_main .menu		{ float: left; }
+#navigation_main a:hover	{ text-decoration: none; }
 	
 	
 .boxshadow		{ -moz-box-shadow: 0px 0px 10px #555555; -webkit-box-shadow: 0px 0px 10px #555555; box-shadow: 0px 0px 10px #555555; }
