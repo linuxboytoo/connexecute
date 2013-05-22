@@ -1,8 +1,9 @@
 $(document).ready(function() {
 	
-	jQuery('input[default]').each(function( index ) {
-		position = jQuery(this).position();
-		jQuery('<span/>').css('background-color': '#ff0000','left': position.left).appendTo(this);	
-	});
+	jQuery('input[default]').focus(function() {
+  if ($(this).val()==$(this).attr("default")) { $(this).val(""); }
+}).blur(function() {
+  if ($(this).val()=="") { $(this).val($(this).attr("default")); }
+});
 
 });
