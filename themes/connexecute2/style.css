@@ -34,12 +34,17 @@ a:hover				{ text-decoration: underline; color: #f47b20; }
 .owrapper	{ }
 .iwrapper	{ height: auto; position: relative; margin: auto; width: 960px; }
 
+.bg_lightblue 		{ background-color: #13b5ea; }
+
 #header 			{ position: relative; height: 88px; margin: 10px 0 0 0; }
 #header .logo		{ float: left; height: 64px; width: 303px; background-image: url('/theme/images/logo.png'); }
 #header .social		{ position: absolute; height: 25px; right: 0; }
 #header .social img { float: left; width: 25px; height: 25px; padding: 3px;}	
 #header .contact	{ position: absolute; height: 25px; top: 50px; right: 0; }
 
+
+#navigation_main	{ height: 25px; }
+	
 	
 .boxshadow		{ -moz-box-shadow: 0px 0px 10px #555555; -webkit-box-shadow: 0px 0px 10px #555555; box-shadow: 0px 0px 10px #555555; }
 .dropshadow		{ -moz-box-shadow: 0px 5px 10px #555555; -webkit-box-shadow: 0px 5px 10px #555555; box-shadow: 0px 5px 10px #555555;
