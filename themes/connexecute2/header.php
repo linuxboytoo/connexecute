@@ -23,7 +23,14 @@
 		<div class='iwrapper'>
 			<div id='header'>
 				<div class='logo'></div>
-				<div class='social'></div>
+				<div class='social'>
+					<img src='/theme/images/social-youtube.jpg'>
+					<img src='/theme/images/social-rss.jpg'>
+					<img src='/theme/images/social-linkedin.jpg'>
+					<img src='/theme/images/social-facebook.jpg'>
+					<img src='/theme/images/social-twitter.jpg'>
+					<img src='/theme/images/social-email.jpg'>
+				</div>
 				<div class='contact'></div>
 			</div>
 		</div>
