@@ -1,5 +1,6 @@
 <div class='owrapper'>
 	<div class='iwrapper'>
-	TESTING
+		<div id='main_banner'>
+		</div>
 	</div>
 </div>
