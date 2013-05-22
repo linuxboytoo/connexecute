@@ -34,6 +34,8 @@ a:hover				{ text-decoration: underline; color: #f47b20; }
 .owrapper	{ }
 .iwrapper	{ height: auto; position: relative; margin: auto; width: 960px; }
 
+.fg_lightblue			{ color: #13b5ea; }
+
 .bg_lightblue 			{ background-color: #13b5ea; }
 .bg_lightblue *			{ color: #ffffff; }
 .bg_lightblue a:hover	{ color: #0054a4; }
