@@ -62,7 +62,7 @@ a:hover				{ text-decoration: underline; color: #f47b20; }
 
 .dottedhr,
 .dottedhr-darkblue	{ background-image: url("/theme/images/horizontal-dots.png"); height: 3px; }
-.dottedhr-darkblue	{ background-position: 0 2px; }
+.dottedhr-darkblue	{ background-position: 3px 0; }
 
 .boxshadow		{ -moz-box-shadow: 0px 0px 10px #555555; -webkit-box-shadow: 0px 0px 10px #555555; box-shadow: 0px 0px 10px #555555; }
 .dropshadow		{ -moz-box-shadow: 0px 5px 10px #555555; -webkit-box-shadow: 0px 5px 10px #555555; box-shadow: 0px 5px 10px #555555;
