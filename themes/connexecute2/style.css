@@ -61,7 +61,8 @@ a:hover				{ text-decoration: underline; color: #f47b20; }
 #main_banner_image 	{ width: 498px; height: 273px; border: 1px solid #000000; }
 
 .dottedhr,
-.dottedhr-darkblue	{ background-image: url("/theme/images/horizontal-dots.png"); height: 3px; }
+.dottedhr-darkblue,	
+.dottedhr-green		{ background-image: url("/theme/images/horizontal-dots.png"); height: 3px; }
 .dottedhr-darkblue	{ background-position: 0 -3px; }
 .dottedhr-green		{ background-position: 0 -6px; }
 
