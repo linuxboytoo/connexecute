@@ -2,8 +2,6 @@
 </div>
 <div style='float: left; width: 59px;'>&nbsp;</div>
 <div style='float: left; width: 401px;'>
-<div style='background-color: #7ac143; background-image: url("/theme/images/horizontal-dots.png"); width: 400px; height: 3px;'>
-test
-</div>
+<div style='background-color: #7ac143; background-image: url("/theme/images/horizontal-dots.png"); width: 400px; height: 3px;'></div>
 TESTNiG
 </div>
