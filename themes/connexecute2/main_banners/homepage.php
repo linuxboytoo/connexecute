@@ -17,7 +17,7 @@
 		<br />
 		<input name='first_name' style='height: 13px; width: 155px; padding: 5px; margin: 5px 0 5px 0;' type='text' default='first name'><br />
 		<input name='email_address' style='height: 13px; width: 155px; padding: 5px;' type='text' default='email address'><br />
-		<div class='buttonlong-orange' style='position: absolute; top: 129px; left: 12px; font-family: Allura;'>download now</div>
+		<div class='buttonlong-orange' style='position: absolute; top: 129px; left: 12px; font-family: Allura; font-size: 12pt;'>download now</div>
 	</div> 
 	
 </div>
