@@ -20,11 +20,7 @@ function get_post_by_tag($tag)
 
 if ( function_exists('register_sidebar') ){
     register_sidebar(array(
-        'name' => 'header_contact',
-        'before_widget' => '<div class="contact_item">',
-        'after_widget' => '</div>',
-        'before_title' => '',
-        'after_title' => '',
+        'name' => 'Header Contact',
 ));
 }
 
