@@ -10,7 +10,7 @@
 	<div class='fg_lightblue' style='font-family: Allura; font-size: 40px; position: absolute; top: 17px; left: 15px;'>Download &nbsp;Your Free</div>
 	<!-- ARROW -->
 	<div style='position: absolute; background-image: url("/theme/images/arrow-drawndown.png"); width: 49px; height: 60px; top: 31px; right: 35px; z-index: 200;'></div>
-	<div style='position: absolute; top: 97px; left: 21px; width: 195px; height: 178px; line-spacing: 25pt;'>
+	<div style='position: absolute; top: 97px; left: 21px; width: 195px; height: 178px; line-spacing: 35px;'>
 		<strong>3 essential tools</strong> to get<br />
 		you where you want to go
 	</div> 
