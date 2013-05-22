@@ -1,2 +1,2 @@
 <?php
-TESTING 
+echo "TESTING";
