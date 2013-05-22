@@ -36,7 +36,7 @@ h3					{ font-size: 13pt; padding-bottom: 5px;  }
 
 
 #header 			{ height: 88px; margin: 10px 0 0 0; }
-#header .logo		{ float: left; 	height: 64px; width: 303px; background-image: url('/theme/images/logo.png'); }
+#header .logo		{ 	height: 64px; width: 303px; background-image: url('/theme/images/logo.png'); }
 #header .social		{ float: right; height: 25px; }	
 #header .contact	{ float: right; }
 
