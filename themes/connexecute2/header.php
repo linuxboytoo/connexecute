@@ -24,7 +24,7 @@
 			<div id='header'>
 				<div class='logo'></div>
 				<div class='social'>
-					   <?php dynamic_sidebar('my_mega_menu'); ?>
+					   <?php dynamic_sidebar('socialicons'); ?>
 <!--
 					<img src='/theme/images/social-youtube.jpg'>
 					<img src='/theme/images/social-rss.jpg'>
