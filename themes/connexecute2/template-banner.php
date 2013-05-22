@@ -1,7 +1,7 @@
 <div class='owrapper'>
 	<div class='iwrapper'>
 		<div id='main_banner'>
-TEST
+			<?php echo getcwd(); ?>
 		</div>
 	</div>
 </div>
