@@ -11,6 +11,7 @@
 	<!-- ARROW -->
 	<div style='position: absolute; background-image: url("/theme/images/arrow-drawndown.png"); width: 49px; height: 60px; top: 31px; right: 35px; z-index: 200;'></div>
 	<div style='position: absolute; top: 97px; left: 21px; width: 195px; height: 178px;'>
-	test<br />test</br />test
+		<strong>3 essential tools</strong> to get<br />
+		you where you want to go
 	</div> 
 </div>
