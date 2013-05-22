@@ -72,7 +72,7 @@ input.empty			{ color: #aaaaaa !important; }
 .dottedhr-darkblue	{ background-position: 0 -3px; }
 .dottedhr-green		{ background-position: 0 -6px; }
 
-.buttonlong-orange	{ background-image: url('/theme/images/button-long-orange.png'); width:132px; height:25px; padding: 6px; text-align: center; color: #ffffff;  }
+.buttonlong-orange	{ background-image: url('/theme/images/button-long-orange.png'); width:132px; height:25px; padding: 7px; text-align: center; color: #ffffff;  }
 
 .boxshadow		{ -moz-box-shadow: 0px 0px 10px #555555; -webkit-box-shadow: 0px 0px 10px #555555; box-shadow: 0px 0px 10px #555555; }
 .dropshadow		{ -moz-box-shadow: 0px 5px 10px #555555; -webkit-box-shadow: 0px 5px 10px #555555; box-shadow: 0px 5px 10px #555555;
