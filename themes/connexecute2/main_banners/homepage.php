@@ -15,7 +15,7 @@
 		<strong>3 essential tools</strong> to get<br />
 		you where you want to go<br />
 		<br />
-		<input style='height: 23px; width: 165px;' type='text' value='first name'><br />
+		<input style='height: 23px; width: 165px; margin: 5px 0 5px 0; ' type='text' value='first name'><br />
 		<input style='height: 23px; width: 165px;' type='text' value='last name'><br />
 	</div> 
 	
