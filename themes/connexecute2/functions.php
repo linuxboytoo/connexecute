@@ -17,6 +17,20 @@ function get_post_by_tag($tag)
 	return $post;
 }
 
+
+if ( function_exists('register_sidebar') ){
+    register_sidebar(array(
+        'name' => 'socialicons',
+        'before_widget' => '<div class="socialicon">',
+        'after_widget' => '</div>',
+        'before_title' => '',
+        'after_title' => '',
+));
+}
+
+
+
+
 // ADD MENUS
 add_theme_support( 'menus' );
 function register_my_menus()
