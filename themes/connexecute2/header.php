@@ -9,6 +9,7 @@
 <!-- include jQuery library -->
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script type="text/javascript" src="/theme/js/jquery.cycle.lite.js"></script>
+<script type="text/javascript" src="/theme/js/custom.js"></script>
 <script type="text/javascript">
 	$(document).ready(function(){ 
 		$('.slideshow').cycle({ fx: 'fade', speed: 5000, pause: true });
