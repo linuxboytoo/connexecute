@@ -1,5 +1,12 @@
 <div class='owrapper'>
 	<div class='iwrapper'>
+		<?php $category = get_the_category(); ?>
+		<a name="top"></a>
+		<h2><?php $category[0]->cat_name ?></h2>
+	
+	
+	
+	
 		<?php		
 				global $wp_query;
 				global $post;
