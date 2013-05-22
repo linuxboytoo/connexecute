@@ -1,8 +1,8 @@
 $(document).ready(function() {
 	
 	jQuery('input[default]').each(function( index ) {
-	
-		jQuery(this).attr('value',jQuery(this).attr('default'));	
+		position = jQuery(this).position();
+		jQuery('<span/>').css('background-color': '#ff0000','left': position.left).appendTo(this);	
 	});
 
 });
