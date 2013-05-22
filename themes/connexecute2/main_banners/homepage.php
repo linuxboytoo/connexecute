@@ -5,5 +5,5 @@
 	<div class='bg_darkblue' style='position: absolute; top: 0; right: 0; width: 61px; height: 275px;'></div> 
 	<div class='dottedhr-green' style='position: absolute; top: 64px; left: 0px; width: 100%'></div>
 	<div class='fg_lightblue' style='font-family: Allura; font-size: 40px; position: absolute; top: 17px; left: 15px;'>Download &nbsp;Your Free</div>
-	<div style='position: absolute; background-image: url("/theme/images/arrow-drawndown.png"); width: 49px; height: 60px; top: 31px; right: 35px z-index: 200;'></div>
+	<div style='position: absolute; background-image: url("/theme/images/arrow-drawndown.png"); width: 49px; height: 60px; top: 31px; right: 35px; z-index: 200;'></div>
 </div>
