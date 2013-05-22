@@ -31,6 +31,8 @@
 					<a href='http://twitter.com/connexecute' target='_blank'><img src='/theme/images/social-twitter.jpg'></a>
 					<a href='mailto:info@connexecute.com'><img src='/theme/images/social-email.jpg'></a>
 				</div>
-				<div class='contact'></div>
+				<div class='contact'>
+					<?php dynamic_sidebar('header_contact'); ?>
+				</div>
 			</div>
 		</div>
