@@ -39,7 +39,7 @@ a:hover				{ text-decoration: underline; color: #f47b20; }
 	h1,h2,h3,p,
 	div,span		{ color: #ffffff; }	
 
-#header 			{ position: relative; height: 88px; margin: 10px 0 0 0; }
+#header 			{ position: relative; height: 88px; margin: 0 0 10px 0; }
 #header .logo		{ float: left; height: 64px; width: 303px; background-image: url('/theme/images/logo.png'); }
 #header .social		{ position: absolute; height: 25px; right: 0; }
 #header .social img { float: left; width: 25px; height: 25px; padding: 3px;}	
