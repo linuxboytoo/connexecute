@@ -33,7 +33,7 @@ strong				{ font-weight: 700; }
 a					{ text-decoration: none; color: #f47b20; }
 a:hover				{ text-decoration: underline; color: #f47b20; }
 
-input.empty			{ color: #dddddd; }
+.empty			{ color: #dddddd; }
 
 .owrapper	{ }
 .iwrapper	{ height: auto; position: relative; margin: auto; width: 960px; }
