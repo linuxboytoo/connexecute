@@ -15,8 +15,9 @@
 		<strong>3 essential tools</strong> to get<br />
 		you where you want to go<br />
 		<br />
-		<input style='height: 13px; width: 155px; padding: 5px;margin: 5px 0 5px 0;' type='text' default='first name'><br />
-		<input style='height: 13px; width: 155px; padding: 5px;' type='text' default='last name'><br />
+		<input name='first_name' style='height: 13px; width: 155px; padding: 5px; margin: 5px 0 5px 0;' type='text' default='first name'><br />
+		<input name='email_address' style='height: 13px; width: 155px; padding: 5px;' type='text' default='email address'><br />
+		<div class='buttonlong-orange'>Download Now</div>
 	</div> 
 	
 </div>
