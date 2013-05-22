@@ -22,7 +22,7 @@ Orange: #f47b20
 
 html,body			{ margin: 0 !important; padding: 0 !important;  }
 h1,h2,h3,p,div,
-span,a				{ font-family: 'Raleway', sans-serif; font-size: 11pt; color: #464646; font-weight: normal; }
+span,a				{ font-family: 'Raleway', sans-serif; font-size: 10pt; color: #464646; font-weight: normal; }
 h1,h2,h3			{ color: #0054a4; }
 h1					{ font-size: 20pt; padding-bottom: 25px; } 
 h2					{ font-size: 17pt; padding-bottom: 10px; }
