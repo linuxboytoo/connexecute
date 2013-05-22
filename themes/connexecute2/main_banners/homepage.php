@@ -19,5 +19,6 @@
 		<input name='email_address' style='height: 13px; width: 155px; padding: 5px;' type='text' default='email address'><br />
 		<div class='buttonlong-orange' style='position: absolute; top: 129px; left: 12px; font-family: Allura; font-size: 18pt;'>download now</div>
 	</div> 
-	
+	<!-- WORKBOOK -->
+	<div style='position: absolute; top: 78px; left: 220px; background-image: url("/theme/images/graphic-workbookcover.png");'></div>
 </div>
