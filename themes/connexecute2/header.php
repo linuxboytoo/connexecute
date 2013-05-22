@@ -24,12 +24,12 @@
 			<div id='header'>
 				<div class='logo'></div>
 				<div class='social'>
-					<a href='http://www.youtube.com/'><img src='/theme/images/social-youtube.jpg'></a>
+					<img src='/theme/images/social-youtube.jpg'></a>
 					<img src='/theme/images/social-rss.jpg'>
-					<img src='/theme/images/social-linkedin.jpg'>
-					<img src='/theme/images/social-facebook.jpg'>
-					<img src='/theme/images/social-twitter.jpg'>
-					<img src='/theme/images/social-email.jpg'>
+					<a href='http://linkedin.com/company/connexecute' target='_blank'><img src='/theme/images/social-linkedin.jpg'></a>
+					<a href='http://fb.com/connexecute' target='_blank'><img src='/theme/images/social-facebook.jpg'></a>
+					<a href='http://twitter.com/connexecute' target='_blank'><img src='/theme/images/social-twitter.jpg'></a>
+					<a href='mailto:info@connexecute.com'><img src='/theme/images/social-email.jpg'></a>
 				</div>
 				<div class='contact'></div>
 			</div>
