@@ -24,15 +24,12 @@
 			<div id='header'>
 				<div class='logo'></div>
 				<div class='social'>
-					   <?php dynamic_sidebar('socialicons'); ?>
-<!--
-					<img src='/theme/images/social-youtube.jpg'>
+					<a href='http://www.youtube.com/'><img src='/theme/images/social-youtube.jpg'></a>
 					<img src='/theme/images/social-rss.jpg'>
 					<img src='/theme/images/social-linkedin.jpg'>
 					<img src='/theme/images/social-facebook.jpg'>
 					<img src='/theme/images/social-twitter.jpg'>
 					<img src='/theme/images/social-email.jpg'>
--->
 				</div>
 				<div class='contact'></div>
 			</div>
