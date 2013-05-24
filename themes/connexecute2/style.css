@@ -20,13 +20,14 @@ Orange: #f47b20
 @import url('http://fonts.googleapis.com/css?family=Allura|Raleway:400,700');
 
 
-html,body			{ margin: 0 !important; padding: 0 !important;  }
+html,body			{ margin: 0 !important; padding: 0 !important; font-size: 11pt; color: #464646; }
 h1,h2,h3,p,div,
-span,a				{ font-family: 'Raleway', sans-serif; font-size: 11pt; color: #464646; font-weight: normal; }
-h1,h2,h3			{ color: #0054a4; }
+span,a				{ font-family: 'Raleway', sans-serif; font-weight: normal; }
+h1,h2,h3,h4			{ color: #0054a4; }
 h1					{ font-size: 20pt; padding-bottom: 25px; } 
 h2					{ color: #555555; font-size: 14pt; font-weight: bold; padding-bottom: 10px; }
-h3					{ color: #555555; font-size: 11pt; font-weight: bold; padding-bottom: 5px;  }
+h3					{ color: #555555; font-size: 12pt; font-weight: bold; padding-bottom: 5px;  }
+h4					{ color: #555555; font-size: 10pt; font-weight: bold; padding-bottom: 4px;  }		
 
 strong				{ font-weight: 700; }
 
@@ -66,9 +67,12 @@ input.empty			{ color: #aaaaaa !important; }
 #main_banner		{ height: 275px; margin: 17px 0 17px 0; }
 #main_banner_image 	{ width: 498px; height: 273px; border: 1px solid #000000; }
 
-.category_twocolumn .item { width: 480px; float: left; }
-.category_twocolumn .item h3
-
+.category_twocolumn .item 		  		{ width: 480px; float: left; padding: 0 0 35px 0;  }
+.category_twocolumn .item div			{ float: left; }
+.category_twocolumn .item .image  		{ width: 120px; height: 120px; }
+.category_twocolumn .item .image img 	{ width: 100%; height: 100%; }
+.category_twocolumn .item .content		{ width: 277px; padding: 0 60px 0 23px; font-size: 8pt; color: #555555; letter-spacing: 1px; line-height: 15px;  overflow: hidden; height: 121px; }
+.category_twocolumn .item .content h4	{ padding: 0 0 15px 0; }
 
 .dottedhr,
 .dottedhr-darkblue,	

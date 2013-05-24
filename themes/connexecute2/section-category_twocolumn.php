@@ -29,7 +29,18 @@
  						the_post();
  		?>
  						<div class='item'>
- 							<h3><?php the_title(); ?></h3>
+ 							<div class='image dropshadow'><?php if ( has_post_thumbnail() ) { the_post_thumbnail(); } ?></div>
+ 							<div class='content'>
+ 								<h4><?php the_title(); ?></h4>
+ 								<?php
+									$content = get_the_content();
+									$content = apply_filters('the_content', $content);
+									$content = str_replace(']]>', ']]&gt;', $content);
+									$excerpt = substr($content,0,strpos($content,'</p>'));
+									echo $excerpt;
+								?>
+ 							</div>
+ 							<div style='clear: both;'></div>
  						</div>
  		<?php
  					}
