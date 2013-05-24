@@ -24,8 +24,8 @@ html,body			{ margin: 0 !important; padding: 0 !important; font-size: 11pt; colo
 h1,h2,h3,p,div,
 span,a				{ font-family: 'Raleway', sans-serif; font-weight: normal; }
 h1,h2,h3,h4			{ color: #0054a4; }
-h1					{ font-size: 20pt; padding-bottom: 25px; } 
-h2					{ color: #555555; font-size: 14pt; font-weight: bold; padding-bottom: 10px; }
+h1					{ font-weight: normal; font-size: 28pt; padding-bottom: 15px; } 
+h2					{ color: #555555; font-size: 14pt; font-weight: bold; padding-bottom: 15px; }
 h3					{ color: #555555; font-size: 12pt; font-weight: bold; padding-bottom: 5px;  }
 h4					{ color: #555555; font-size: 10pt; font-weight: bold; padding-bottom: 4px;  }		
 
@@ -37,42 +37,71 @@ a:hover				{ text-decoration: underline; color: #f47b20; }
 input.empty			{ color: #aaaaaa !important; }
 
 .owrapper	{ }
-.iwrapper	{ height: auto; position: relative; margin: auto; width: 960px; }
+.iwrapper	{ height: auto; position: relative; margin: auto; width: 100%; max-width: 960px; }
 
-.fg_lightblue			{ color: #13b5ea; }
+.content 					{ line-height: 1.5em; font-size: .75em; color: #555555; line-height: 1.5em }
 
-.bg_lightblue 			{ background-color: #13b5ea; }
-.bg_lightblue *			{ color: #ffffff; }
-.bg_lightblue a:hover	{ color: #0054a4; }
+.fancyfont					{ font-family: Allura; }
 
-.bg_green				{ background-color: #7ac143; }
+.fg_lightblue				{ color: #13b5ea; }
 
-.bg_darkblue			{ background-color: #0054a4; } 
+.bg_lightblue 				{ background-color: #13b5ea; }
+.bg_lightblue *				{ color: #ffffff; }
+.bg_lightblue a:hover		{ color: #0054a4; }
 
-#header 			{ position: relative; height: 78px; margin: 10px 0 0 0; }
-#header .logo		{ float: left; height: 64px; width: 303px; background-image: url('/theme/images/logo.png'); }
-#header .social		{ position: absolute; height: 25px; right: 0; }
-#header .social img { float: left; width: 25px; height: 25px; padding: 3px;}	
-#header .contact	{ position: absolute; height: 25px; top: 50px; right: 0; }
+.bg_green					{ background-color: #7ac142; }
+.bg_green *					{ font-weight: normal; color: #ffffff; }
 
+.bg_darkblue				{ background-color: #0054a4; } 
+
+.navigation.menu_right		{ float: right; }
+.navigation ul				{ float: right; list-style-type:none; margin: 0; padding: 0; }	
+.navigation ul > li	{ display: inline; float: left; border: 1px solid #ffffff; padding: 0 5px 0 5px; border-width: 0 1px 0 0; }
+.navigation li:last-child	{ border: none; padding: 0 0 0 5px; }	
+
+
+
+#header 					{ position: relative; height: 78px; margin: 10px 0 0 0; }
+#header .logo				{ float: left; height: 64px; width: 303px; background-image: url('/theme/images/logo.png'); }
+#header .social				{ position: absolute; height: 25px; right: 0; }
+#header .social img 		{ float: left; width: 25px; height: 25px; padding: 3px;}	
+#header .contact			{ position: absolute; height: 25px; top: 50px; right: 0; }
 
 #navigation_main			{ padding: 5px 0 5px 0; height: 15px; }
 #navigation_main .tagline	{ float: left; }
-#navigation_main .menu		{ float: right; }
 #navigation_main a:hover	{ text-decoration: none; }
-#navigation_main ul			{ list-style-type:none; margin: 0; padding: 0; }	
-#navigation_main ul > li	{ display: inline; float: left; border: 1px solid #ffffff; padding: 0 5px 0 5px; border-width: 0 1px 0 0; }
-#navigation_main li:last-child	{ border: none; padding: 0 0 0 5px; }	
 
-#main_banner		{ height: 275px; margin: 17px 0 17px 0; }
-#main_banner_image 	{ width: 498px; height: 273px; border: 1px solid #000000; }
 
-.category_twocolumn .item 		  		{ width: 480px; float: left; padding: 0 0 35px 0;  }
-.category_twocolumn .item div			{ float: left; }
-.category_twocolumn .item .image  		{ width: 120px; height: 120px; }
-.category_twocolumn .item .image img 	{ width: 100%; height: 100%; }
-.category_twocolumn .item .content		{ width: 277px; padding: 0 60px 0 23px; font-size: 8pt; color: #555555; letter-spacing: 1px; line-height: 15px;  overflow: hidden; height: 121px; }
-.category_twocolumn .item .content h4	{ padding: 0 0 15px 0; }
+#main_banner				{ height: 275px; margin: 17px 0 17px 0; }
+#main_banner_image 			{ width: 498px; height: 273px; border: 1px solid #000000; }
+	
+#lower_banner				{ height: 60px; padding: 10px 0 10px 0; }
+#lower_banner h1			{ padding-bottom: 2px; }
+
+#main_content				{ padding: 0px 0 30px 0; }
+#main_content .content		{ line-height: 1.5em; font-size: .75em; }	
+
+#footer							{ font-size: .8em; line-height: 1em; }
+#navigation_footer				{ height: 16px; padding: 9px 0 0 0; width: 100%; }
+#navigation_footer a			{ color: #555555; }
+#navigation_footer .navigation	{ width: 75%; }
+#navigation_footer .navigation ul > li { border-color: #555555; }
+
+#footer * .logo				{ float: left; background-size: 223px 47px; width: 223px; height: 47px; background-image: url('/theme/images/logo.png'); }
+#footer_contact				{ float: left; width: 89%; padding: 20px 0 0 0;  }
+#footer_copyright			{ float: left; width: 89%; padding: 10px 0 0 0;   }
+
+#footer_left				{ float: left; width: 45%; }
+#footer_right				{ float: left; width: 55%; }
+#footer_right .banner		{ margin: 25px 0 0 0; }
+
+
+.category_twocolumn .item 		  			{ width: 480px; float: left; padding: 0 0 35px 0; position: relative; }
+.category_twocolumn .item div				{ float: left; }
+.category_twocolumn .item .image  			{ width: 120px; height: 120px; }
+.category_twocolumn .item .image img 		{ width: 100%; height: 100%; }
+.category_twocolumn .item .content			{ width: 277px; padding: 0 60px 0 23px; overflow: hidden; height: 121px; }
+.category_twocolumn .item .content h4		{ padding: 0 0 15px 0; }
 
 .dottedhr,
 .dottedhr-darkblue,	
@@ -82,6 +111,8 @@ input.empty			{ color: #aaaaaa !important; }
 
 .buttonlong-orange			{ background-image: url('/theme/images/button-long-orange.png'); width:132px; height:21px; padding: 7px 5px 7px 5px; text-align: center; color: #fee5d1;  }
 .buttonlong-orange:hover	{ color: #ffffff; cursor: pointer; }
+.buttonshort-orange			{ background-image: url('/theme/images/button-long-orange.png'); width: 91px; height:11px; padding:6px 0 6px 0; background-size: 91px 23px; text-align: center; color: #fee5d1; font-size: 11pt; }
+.buttonshort-orange:hover	{ color: #ffffff; cursor: pointer; }
 
 .boxshadow		{ -moz-box-shadow: 0px 0px 10px #555555; -webkit-box-shadow: 0px 0px 10px #555555; box-shadow: 0px 0px 10px #555555; }
 .dropshadow		{ -moz-box-shadow: 0px 5px 10px #555555; -webkit-box-shadow: 0px 5px 10px #555555; box-shadow: 0px 5px 10px #555555;

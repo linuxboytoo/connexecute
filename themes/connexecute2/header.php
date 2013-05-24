@@ -41,7 +41,7 @@
 	<div id='navigation_main' class='owrapper bg_lightblue'>
 		<div class='iwrapper'>
 			<div class='tagline'><?php dynamic_sidebar('Header Tagline'); ?></div>
-			<div class='menu'>
+			<div class='navigation menu_right'>
 				<?php wp_nav_menu( array('menu' => 'Primary Navigation Menu' )); ?>
 			</div>
 		</div>
