@@ -1,5 +1,5 @@
 <div class='owrapper'>
-	<div class='iwrapper bg_lightblue' style='height: 3px;'></div>
+	<div class='iwrapper bg_lightblue' style='height: 3px; margin-top: 20px;'></div>
 </div>
 <div class='owrapper'>
 	<div id='footer' class='iwrapper'>

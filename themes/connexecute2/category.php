@@ -7,7 +7,6 @@
 			
 	$startargs = $wp_query->query_vars;
 
-
 	/* Special case to use plugin "Advanced Custom Sort". ACS Group will be used if title of group matches category title */
 	if(class_exists('Acs'))
 	{	
