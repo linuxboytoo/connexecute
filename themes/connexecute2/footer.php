@@ -22,6 +22,7 @@
 				<?php dynamic_sidebar('Footer Call to Action'); ?>
 			</div>
 		</div>
+		<div style='clear: both;'></div>
 	</div>
 </div>
 

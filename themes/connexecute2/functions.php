@@ -52,3 +52,6 @@ if ( function_exists( 'add_image_size' ) ) {
 	add_image_size( 'banner', 1000, 377, true );
 
 }
+
+
+@include('custompost_product.php');

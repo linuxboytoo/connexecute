@@ -31,7 +31,7 @@
  						<div class='item'>
  							<div class='image dropshadow'><?php if ( has_post_thumbnail() ) { the_post_thumbnail(); } ?></div>
  							<div class='content'>
- 								<h4><?php the_title(); ?></h4>
+ 								<h3><a href='<?php echo get_permalink(); ?>'><?php the_title(); ?></a></h3>
  								<?php
 									$content = get_the_content();
 									$content = apply_filters('the_content', $content);
