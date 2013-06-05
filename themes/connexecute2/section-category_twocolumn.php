@@ -39,6 +39,9 @@
 									$excerpt = substr($content,0,strpos($content,'</p>'));
 									echo $excerpt;
 								?>
+								<div style='position:absolute; bottom: 31px; right: 23px; background-color: #ffffff;' id='learnmore'>
+									&nbsp;. . . 	<a href='<?php echo get_permalink(); ?>'>Learn More</a>
+								</div>
  							</div>
  							<div style='clear: both;'></div>
  						</div>
