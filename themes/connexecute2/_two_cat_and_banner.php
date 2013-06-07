@@ -55,7 +55,7 @@ Template Name: Two Category and Banner
 
 <!-- SECOND CATEGORY -->	
 		<div class='iwrapper'>
-		<?php $cat="4"; get_template_part('section','category_onerow'); ?>
+		<?php $cat="21"; get_template_part('section','category_onerow'); ?>
 		</div>
 <!-- SECOND CATEGORY -->
 

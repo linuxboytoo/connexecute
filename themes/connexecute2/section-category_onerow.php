@@ -1,4 +1,4 @@
-<?php $cat = 4; ?>
+<?php $cat = 21; ?>
 
 <?php
 	$rootcat_name =  get_cat_name($cat);

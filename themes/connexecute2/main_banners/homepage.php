@@ -1,7 +1,8 @@
-<div style='float: left; border: 1px solid #555555; width: 498px; height: 273px;'>
+<div style='float: left; border: 1px solid #555555; width: 500px; height: 281px;'>
+<iframe src="http://player.vimeo.com/video/66357069" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 </div>
 <div style='float: left; width: 59px;'>&nbsp;</div>
-<div style='float: left; width: 401px; position: relative;'>
+<div style='float: left; width: 399px; position: relative;'>
 	<!-- BLUE SIDE BAR -->
 	<div class='bg_darkblue' style='position: absolute; top: 0; right: 0; width: 61px; height: 275px;'></div> 
 	<!-- GREEN DOTTED LINE -->

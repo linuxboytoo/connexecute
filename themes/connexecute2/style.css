@@ -140,7 +140,7 @@ input.empty			{ color: #aaaaaa !important; }
 #items_meettheteam .item					{ margin: 8px; width: 120px; height: 120px;  }
 #items_meettheteam .itemimage,
 #items_meettheteam .itemimage img			{ width: 100%; height: 100%; }
-#items_meettheteam .itemtitle				{ color: #ffffff; position: absolute; bottom: 0px; height: 15px; margin: 0; padding: 0 0 2px 5px; background-color: #7ac143; width: 115px;	}
+#items_meettheteam .itemtitle				{ color: #ffffff; position: absolute; bottom: 0px; height: 15px; margin: 0; padding: 0 0 5px 5px; font-size: .9em; background-color: #7ac143; width: 115px;	}
 #items_meettheteam .selected 				{ margin: 0; width: 136px; height: 136px; }
 #descs_meettheteam							{ float: left; width: 100%; }
 

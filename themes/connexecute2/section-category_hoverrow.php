@@ -29,7 +29,6 @@
 		}
 	}
 ?>
-
 <div class='owrapper'>
 	<div class='iwrapper category_hoverrow'>
 		<div id="items_meettheteam"></div>
@@ -48,7 +47,7 @@
 						<?php $name = preg_split("/[\s]+/", get_the_title()); ?>
 						category_hoverrow_item('<?php echo $group_id; ?>','<?php echo get_the_ID(); ?>','<?php the_post_thumbnail(Array(120,120)); ?>','<?php echo $name[0].' '.$name[1]; ?>'); 
 						category_hoverrow_desc('<?php echo $group_id; ?>','<?php echo get_the_ID(); ?>',"<?php echo str_replace('<br />','<br />\\',nl2br(htmlspecialchars(do_shortcode(get_the_content())))); ?>",'<?php 	the_title(); ?>');
-						<?php if($count++==1) { echo 'jQuery("#item'.$id.'").hover();'; } ?>
+						<?php if($count++==0) { echo 'jQuery("#item_'.$id.'").mouseover();'; } ?>
 					</script>
 		<?php } ?>
 	<?php } } 
@@ -56,5 +55,4 @@
 ?>
 <script> jQuery('<div/>', { css: { 'clear': 'both' } }).appendTo('#items_meettheteam'); </script>
 <script> jQuery('<div/>', { css: { 'clear': 'both' } }).appendTo('#descs_meettheteam'); </script>
-
 <!-- TEAM MEMBERS -->
