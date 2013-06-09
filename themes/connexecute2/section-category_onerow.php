@@ -21,16 +21,16 @@
 				'orderby'		 => 'post__in',
 			);
 			$args = array_merge($startargs,$newargs);
-			$the_query = new WP_Query( $args );
 		}
 	}
+	$the_query = new WP_Query( $args );
 ?>
 
-
+<?php if( $the_query->have_posts() ) { ?>
 <div class='owrapper'>
 	<div class='iwrapper category_onerow'>
 		<h2><?php echo $rootcat_name; ?></h2>
-		<?php if( $the_query->have_posts() ) { while( $the_query->have_posts() ) { $the_query->the_post(); ?>
+		<?php while( $the_query->have_posts() ) { $the_query->the_post(); ?>
 	
  		<div class='item'>
  			<div class='image dropshadow'><?php if ( has_post_thumbnail() ) { the_post_thumbnail(); } ?></div>
@@ -39,7 +39,8 @@
  			</div>
  			<div style='clear: both;'></div>
  		</div>
- 		<?php }	} wp_reset_postdata(); ?>
+ 		<?php }	?>
  		<div style='clear: both;'></div>
 	</div>
 </div>
+<?php } wp_reset_postdata(); ?>
